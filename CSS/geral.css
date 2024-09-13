@@ -1,0 +1,54 @@
+body {
+    margin: 0rem;
+    background-color: #F2F2F2;
+}
+h1, h2, h3, p {
+    margin: 0rem;
+}
+ul {
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "kalam";
+    color: #00850D;
+}
+.acesso {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.acesso a {
+    font-family: "kalam";
+    font-size: 1.3rem;
+    text-decoration: underline;
+    color: #000;
+}
+.acesso #home {
+    color: #00850D;
+    text-decoration: none;
+}
+main > p {
+    font-family: "kalam";
+    font-size: 1rem;
+    text-align: center;
+    margin: 30px 10px 0px 10px;
+}
+.rodape {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "roboto";
+    margin-top: 80px;
+}
