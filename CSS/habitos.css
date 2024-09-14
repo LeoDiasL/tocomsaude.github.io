@@ -1,0 +1,11 @@
+@media(max-width: 700px) {
+    .habitos {
+        text-align: center;
+        padding: 10px;
+    }
+    .habitos li {
+        display: grid;
+        padding: 20px 0px;
+        font-family: "kalam";
+    }
+    }

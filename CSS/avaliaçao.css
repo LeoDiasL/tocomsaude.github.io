@@ -1,0 +1,32 @@
+@media(max-width: 700px) {
+    form {
+        margin: 20px;
+    }
+    .campo-formulario label {
+        font-family: "kalam";
+        font-size: 1.2rem;
+    }
+    .campo-formulario {
+        padding-bottom: 40px;
+    }
+    form > .campo-formulario {
+        display: grid;
+    }
+    .campo-formulario textarea,
+    .campo-formulario select {
+        padding: 20px;
+        font-family: "roboto";
+        font-size: 1.2rem;
+        background-color: #D9D9D9;
+        border-style: none;
+    }
+    button {
+        padding: 20px 40px;
+        font-size: 1.2rem;
+        font-family: "kalam";
+        text-transform: uppercase;
+        border-radius: 5px;
+        border-style: none;
+        background-color: #97DFA2;
+    }
+    }

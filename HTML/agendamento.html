@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Tô Com Saúde | Agendamento</title>
+    <link rel="stylesheet" href="/CSS/import.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Agendamento</h1>
+        <ul class="acesso">
+            <li><a href="/HTML/entrar.html">Entrar</a></li>
+            <li><a href="/HTML/home.html" id="home">Home</a></li>
+            <li><a href="/HTML/cadastro.html">Cadastrar</a></li>
+        </ul>
+    </header>
+    <main>
+        <p>Por aqui você consegue agendar uma consulta com as especialidades disponíveis</p>
+        <section>
+            <form action="./">
+                <div class="campo-formulario">
+                    <label for="data">Data</label>
+                    <input type="date" id="data" name="data">
+                </div>
+                <div class="campo-formulario">
+                    <label for="especialidades">Especialidades Disponíveis</label>
+                    <select name="especialidades" id="especialidades">
+                        <option value="clinico geral">clinico geral</option>
+                        <option value="ortopedista">ortopedista</option>
+                        <option value="cardiologista">cardiologista</option>
+                        <option value="urologista">urologista</option>
+                        <option value="ginecologista">ginecologista</option>
+                    </select>
+                </div>
+            </form>
+            <button>agendar</button>
+        </section>
+    </main>
+    <footer>
+        <p class="rodape">Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

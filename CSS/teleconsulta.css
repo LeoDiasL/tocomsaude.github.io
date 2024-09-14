@@ -1,0 +1,18 @@
+@media(max-width: 700px) {
+    .teleconsulta {
+        text-align: center;
+        padding: 20px;
+    }
+    .teleconsulta li {
+        display: grid;
+        padding: 20px 0px;
+    }
+    .teleconsulta a {
+        padding: 40px;
+        background-color: #066314;
+        font-size: 1.7rem;
+        font-family: "kalam";
+        border-radius: 5px;
+        color: #FFF
+    }
+    }

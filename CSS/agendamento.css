@@ -1,7 +1,4 @@
 @media(max-width: 700px) {
-main > p {
-    padding-bottom: 40px;
-}
 form {
     margin: 20px;
 }
@@ -15,7 +12,8 @@ form {
 form > .campo-formulario {
     display: grid;
 }
-.campo-formulario input {
+.campo-formulario input,
+.campo-formulario select {
     padding: 20px;
     font-family: "roboto";
     font-size: 1.2rem;
@@ -30,6 +28,5 @@ button {
     border-radius: 5px;
     border-style: none;
     background-color: #97DFA2;
-    margin-left: 20px;
 }
-    }
+}

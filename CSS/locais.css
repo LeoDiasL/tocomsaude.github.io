@@ -1,0 +1,18 @@
+@media(max-width: 700px) {
+    .locais {
+        text-align: center;
+        padding: 20px;
+    }
+    .locais li {
+        display: grid;
+        padding: 20px 0px;
+    }
+    .locais a {
+        padding: 40px;
+        background-color: #D9D9D9;
+        font-size: 1.7rem;
+        font-family: "kalam";
+        border-radius: 5px;
+        color: #000
+    }
+    }
