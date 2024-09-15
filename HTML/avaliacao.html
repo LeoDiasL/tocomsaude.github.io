@@ -24,14 +24,15 @@
     <main>
         <p>Por aqui você consegue agendar uma consulta com as especialidades disponíveis</p>
         <section>
-            <form action="./">
+            <form id="feedbackForm">
                 <div class="campo-formulario">
-                    <label for="texto">Escreva sua experiência</label>
+                    <label for="mensagem">Escreva sua experiência</label>
                     <textarea id="mensagem" name="mensagem" rows="5"></textarea>
                 </div>
                 <div class="campo-formulario">
-                    <label for="avaliaçao">Nota para os serviços</label>
-                    <select name="avaliaçao" id="avaliaçao">
+                    <label for="avaliacao">Nota para os serviços</label>
+                    <select name="avaliacao" id="avaliacao">
+                        <option value="">Selecione uma nota</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -39,13 +40,15 @@
                         <option value="5">5</option>
                     </select>
                 </div>
+                <button type="button" id="enviarButton">Enviar</button>
+                <button type="reset">Reset</button>
             </form>
-            <button>enviar</button>
         </section>
     </main>
     <footer>
         <p class="rodape">Todos os direitos reservados</p>
     </footer>
+    <script src="/JAVASCRIPT/avaliacao.js"></script>
 </body>
 
 </html>

@@ -24,7 +24,7 @@
     <main>
         <p>Por aqui você consegue agendar uma consulta com as especialidades disponíveis</p>
         <section>
-            <form action="./">
+            <form id="agendamentoForm">
                 <div class="campo-formulario">
                     <label for="data">Data</label>
                     <input type="date" id="data" name="data">
@@ -32,20 +32,26 @@
                 <div class="campo-formulario">
                     <label for="especialidades">Especialidades Disponíveis</label>
                     <select name="especialidades" id="especialidades">
-                        <option value="clinico geral">clinico geral</option>
+                        <option value="">Selecione uma especialidade</option>
+                        <option value="clinico geral">clínico geral</option>
                         <option value="ortopedista">ortopedista</option>
                         <option value="cardiologista">cardiologista</option>
                         <option value="urologista">urologista</option>
                         <option value="ginecologista">ginecologista</option>
                     </select>
                 </div>
+                <button type="button" id="agendarButton">Agendar</button>
+                <button type="reset">Reset</button>
             </form>
-            <button>agendar</button>
         </section>
     </main>
     <footer>
         <p class="rodape">Todos os direitos reservados</p>
     </footer>
+
+    <script src="/JAVASCRIPT/agendamento.js">
+
+    </script>
 </body>
 
 </html>

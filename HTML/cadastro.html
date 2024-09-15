@@ -17,8 +17,8 @@
         <h1 class="titulo">Cadastre-se 👤</h1>
     </header>
     <main>
-        <p>Cadstre-se para desfrutar dos recursos de nosso aplicativo. É totalmente gratuito!</p>
-        <form action="./">
+        <p>Cadastre-se para desfrutar dos recursos de nosso aplicativo. É totalmente gratuito!</p>
+        <form id="formulario">
             <div class="campo-formulario">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" name="nome" placeholder="Nome">
@@ -43,10 +43,12 @@
                 <label for="senha">Senha</label>
                 <input type="password" id="senha" name="senha">
             </div>
-            <button>enviar</button>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
         </form>
     </main>
     <footer>
         <p class="rodape">Todos os direitos reservados</p>
     </footer>
+    <script src="/JAVASCRIPT/cadastro.js"></script>
 </body>
