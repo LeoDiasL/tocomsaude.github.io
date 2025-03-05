@@ -38,6 +38,6 @@
     if (erros.length > 0) {
         alert(erros.join('\n'));
     } else {
-        alert('Formulário enviado com sucesso!');
+        alert('usuário cadastrado com sucesso!');
     }
 });

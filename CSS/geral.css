@@ -23,20 +23,23 @@ a {
     font-family: "kalam";
     color: #00850D;
 }
-.acesso {
+.acesso,
+.home-estilo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 40px;
     margin-top: 20px;
 }
-.acesso a {
+.acesso a,
+.home-estilo {
     font-family: "kalam";
     font-size: 1.3rem;
     text-decoration: underline;
     color: #000;
 }
-.acesso #home {
+.acesso #home,
+.home-estilo {
     color: #00850D;
     text-decoration: none;
 }
